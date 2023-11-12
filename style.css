@@ -1,0 +1,13 @@
+div a {
+    background-color: azure;
+    padding: 25px;
+}
+
+a>h1 {
+    background-color: bisque;
+    color: black;
+}
+
+a+a {
+    background-color: azure;
+}
