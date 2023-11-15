@@ -11,3 +11,25 @@ a>h1 {
 a+a {
     background-color: azure;
 }
+
+p:hover{
+    color: black;
+    font-weight: bold;
+}
+
+p::before{
+    content: 'Do you want';
+    color: bisque;
+    font-weight: bold;
+}
+
+p::after{
+    content: 'healthy lifestyle';
+    color: brown;
+    font-weight: bolder;
+}
+
+p::selection{
+    background-color: aliceblue;
+    color: white;
+}
