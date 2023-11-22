@@ -12,18 +12,18 @@ a+a {
     background-color: azure;
 }
 
-p:hover{
+p.HELLO:hover{
     color: black;
     font-weight: bold;
 }
 
-p::before{
+p.HELLO::before{
     content: 'Do you want';
     color: bisque;
     font-weight: bold;
 }
 
-p::after{
+p.HELLO::after{
     content: 'healthy lifestyle?';
     color: brown;
     font-weight: bolder;
