@@ -98,5 +98,5 @@ h3{
 
 img{
     width: 100%;
-    filter: grayscale(50%) invert(20%);
+    filter: grayscale(5%) invert(2%);
 }
