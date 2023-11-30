@@ -111,15 +111,11 @@ img#sofia1 {
     height: 300px;
     width: auto;
     filter: invert(0%);
-    transition: transform 1s ease, filter 1s ease;
   }
   
   img#sofia:hover {
-    transform: scale(1.1);
-    filter: invert(100%);
     animation: invertAnimation 4s forwards;
   }
-  
   
   
   .image-container {
