@@ -96,20 +96,56 @@ h3{
     height: 100px;
 }
 
-img{
+img#sofia1 {
     width: 300px;
-    filter: grayscale(5%) invert(2%);
-}
-
-img#sofia:hover {
+    filter: grayscale(50%) invert(20%);
+  }
+  
+  img#sofia {
     height: 300px;
     width: auto;
     filter: invert(0%);
-    animation: invertAnimation 2s forwards; 
-}
+    transition: transform 1s ease, filter 1s ease; 
+  }
+  
+  img#sofia:hover {
+    transform: scale(1.1);
+    filter: invert(100%);
+  }
+  
+  
+  
+  .image-container {
+    width: 300px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+  }
+  
+  .image-container:hover {
+    transform: scale(1.1);
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
 
-@keyframes invertAnimation {
-    to {
-        filter: invert(100%);
-    }
-}
+  img#waterfall {
+    height: 300px;
+    width: auto;
+    filter: invert(0%);
+    transition: transform 1s ease, filter 1s ease; /* Adjust duration and easing function as needed */
+  }
+  
+  img#waterfall:hover {
+    transform: scale(1.1);
+    filter: invert(100%);
+  }
+  
+  img#waterfall:active {
+    transform: scale(1.2); /* Adjust the scale for the active state */
+    filter: invert(100%);
+  }
+  
+  
