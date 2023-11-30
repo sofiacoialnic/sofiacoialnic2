@@ -97,6 +97,19 @@ h3{
 }
 
 img{
-    width: 100%;
+    width: 300px;
     filter: grayscale(5%) invert(2%);
+}
+
+img#sofia:hover {
+    height: 300px;
+    width: auto;
+    filter: invert(0%);
+    animation: invertAnimation 2s forwards; 
+}
+
+@keyframes invertAnimation {
+    to {
+        filter: invert(100%);
+    }
 }
