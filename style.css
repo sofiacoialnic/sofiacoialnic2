@@ -98,7 +98,7 @@ h3{
 
 img#sofia1 {
     width: 300px;
-    filter: grayscale(50%) invert(20%);
+    filter: grayscale(100%) invert(20%);
   }
   
   @keyframes invertAnimation {
